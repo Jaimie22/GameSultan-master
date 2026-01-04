@@ -4,6 +4,7 @@
 #Version - 1.0
 # Date - 02/11/2025
 # 1.1 Update - 06/12/25
+# 1.2 update - 04/01/26
 
 #** Emojis are not AI generated. They were found here : https://www.webfx.com/tools/emoji-cheat-sheet/ **
 
@@ -24,8 +25,6 @@ if logo:
     st.image(logo, width = 500)
 else:
     st.warning("Logo not found!..")
-
-
 
 #This is collecting the user's information.
 with st.form("user_input"):
