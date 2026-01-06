@@ -39,6 +39,8 @@ if logo:
 else:
     st.warning("Logo not found")
 
+st.subheader(" The Sultan welcomes you. ")
+
 st.write(
     "PRIVACY POLICY - This program has been created for educational purposes only. Any information"
     "\nshared within the program, is stored and monitored with strict professionalism, and will not be given out to anyone"
