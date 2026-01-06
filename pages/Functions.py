@@ -4,6 +4,7 @@
 #Version - 1.0
 # Date - 02/11/2025
 # 1.1 Update - 06/12/25
+# 1.2 Final Update - 06/01/26
 
 import csv
 import os
@@ -14,7 +15,7 @@ from PIL import Image
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 CSV_FILE = os.path.join(BASE_DIR, "csv_dataset", "UserDataNew.csv")
-IMAGE_FILE = os.path.join(BASE_DIR, "Images", "GameSultan.png")
+IMAGE_FILE = os.path.join(BASE_DIR, "Images", "game_sultan_logo.png")
 
 def get_logo():
     if not os.path.exists(IMAGE_FILE):

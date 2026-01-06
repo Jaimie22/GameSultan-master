@@ -4,9 +4,9 @@
 #Version - 1.0
 # Date - 02/11/2025
 # 1.1 Update - 06/12/25
+# 1.2 Final Update - 06/01/26
 
 #Foundational elements of the ML model.
-import pandas as pd
 import numpy as np
 from pages.Functions import load_csv
 from sklearn.model_selection import train_test_split
