@@ -78,7 +78,7 @@ if submit:
             if field in st.session_state:
                 del st.session_state[field]
 
-#Creates a centered button at the bottm of the information page.
+#Creates a centered button at the bottom of the information page.
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     if st.button("Click to prophesise ", use_container_width = True):

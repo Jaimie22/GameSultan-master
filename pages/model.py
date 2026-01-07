@@ -50,7 +50,7 @@ for col in ["genre", "console"]:
     df[col] = le.fit_transform(df[col])
     label_encoders[col] = le
 
-#This is where the model target the specifically chosen columns
+#This is the chosen, RandomForestClassifier model where the model targets specifically these columns for input.
 x = df[["age", "hours", "console"]]
 y = df["genre"]
 
@@ -82,6 +82,7 @@ def predict_genre(console_input, age_input=None, hours_input=None):
     pred = model.predict(features)[0]
     return label_encoders["genre"].inverse_transform([pred])[0]
 
+#The Confidence gauge show how strong the prediction is based on the elements taken from the block above.
 def predict_genre_confidence(console_input, age_input=None, hours_input=None):
 
     if age_input is None:
