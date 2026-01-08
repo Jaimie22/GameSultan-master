@@ -8,6 +8,8 @@
 
 #Foundational elements of the ML model.
 import numpy as np
+import matplotlib.pyplot as plt
+
 from pages.Functions import load_csv
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder

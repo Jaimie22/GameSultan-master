@@ -11,6 +11,8 @@
 # Using streamlit as my preferred method to display statistical information.
 import streamlit as st
 import os
+import matplotlib.pyplot as plt
+
 # because this project only requires a CSV, this imports it and saves the generated data to it.
 # Calling the functions from the Functions.py file.
 from pages.Functions import save_user_data

@@ -8,6 +8,7 @@
 
 import csv
 import os
+import matplotlib.pyplot as plt
 
 # Creates the CSV file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
